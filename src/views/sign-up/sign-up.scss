@@ -1,0 +1,30 @@
+.login-form {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 4px;
+  width: 350px;
+  form {
+    .btn-login{
+      background: rgb(16, 137, 255);
+    }
+    .form-group {
+      .MuiFormControl-root {
+        width: 100%;
+        .MuiInput-underline {
+          &::after {
+            border-bottom: 2px solid rgb(16, 137, 255) !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// .MuiFormLabel-root {
+  .MuiInputLabel-shrink {
+    color: rgb(16, 137, 255) !important;
+  }
+// }
+
+.MuiIconButton-root:hover {
+  background: rgba(16, 137, 255, 0.08) !important;
+}

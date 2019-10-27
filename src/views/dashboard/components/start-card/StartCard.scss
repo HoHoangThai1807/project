@@ -1,0 +1,29 @@
+.start-card {
+  height: 200px;
+  box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12),
+    0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+  border-radius: 0.625rem;
+  .icon-start-card {
+    font-size: 13em;
+    opacity: 0.5;
+
+  }
+}
+
+.card-1 {
+  background: rgb(95, 111, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(95, 111, 230, 1) 0%,
+    rgba(57, 163, 240, 1) 100%
+  );
+}
+
+.card-2 {
+  background: rgb(247, 25, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 25, 97, 1) 0%,
+    rgba(254, 82, 57, 1) 100%
+  );
+}
